@@ -25,6 +25,8 @@
     
     <div class="top-nav-bar">
         <div class="search-box">
+            <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fas fa-times"id="close-btn"onclick="closemenu()"></i>
             <img src="images/orange-logo.png" class="logo">
             <input type="text" class="form-control">
             <span class="input-group-text"><i class="fas fa-search"></i></span>
@@ -39,7 +41,141 @@
         </div>
     </div>
 
- 
+    <section class="header">
+        <div class="side-menu" id="side-menu">
+            <ul>
+                <li>On Sale<i class="fas fa-angle-right"></i>
+                    <ul>
+                        <li>sub-menu-1</li>
+                        <li>sub-menu-1</li>
+                        <li>sub-menu-1</li>
+                        <li>sub-menu-1</li>
+                    </ul>
+                </li>
+                <li>Mobile<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>sub-menu-2</li>
+                    <li>sub-menu-2</li>
+                    <li>sub-menu-2</li>
+                    <li>sub-menu-2</li>
+                </ul>
+                </li>
+                <li>Computers<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>sub-menu-3</li>
+                    <li>sub-menu-3</li>
+                    <li>sub-menu-3</li>
+                    <li>sub-menu-3</li>
+                </ul>
+                </li>
+                <li>Books <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-4</li>
+                        <li>Sub Menu-4</li>
+                        <li>Sub Menu-4</li>
+                        <li>Sub Menu-4</li>
+                    </ul>
+                </li>
+                
+                <li>Fitness <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-5</li>
+                        <li>Sub Menu-5</li>
+                        <li>Sub Menu-5</li>
+                        <li>Sub Menu-5</li>
+                    </ul>
+                </li>
+                
+                <li>Beby Care <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-6</li>
+                        <li>Sub Menu-6</li>
+                        <li>Sub Menu-6</li>
+                        <li>Sub Menu-6</li>
+                    </ul>
+                </li>
+                
+                <li>Magazines <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-7</li>
+                        <li>Sub Menu-7</li>
+                        <li>Sub Menu-7</li>
+                        <li>Sub Menu-7</li>
+                    </ul>
+                </li>
+                
+                <li>Auto Accessories <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-8</li>
+                        <li>Sub Menu-8</li>
+                        <li>Sub Menu-8</li>
+                        <li>Sub Menu-8</li>
+                    </ul>
+                </li>
+                
+                <li>Movies and Music <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-9</li>
+                        <li>Sub Menu-9</li>
+                        <li>Sub Menu-9</li>
+                        <li>Sub Menu-9</li>
+                    </ul>
+                </li>
+                
+                <li>Video and Games <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-10</li>
+                        <li>Sub Menu-10</li>
+                        <li>Sub Menu-10</li>
+                        <li>Sub Menu-10</li>
+                    </ul>
+                </li>
+                
+                <li>Home and Kitchen <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-11</li>
+                        <li>Sub Menu-11</li>
+                        <li>Sub Menu-11</li>
+                        <li>Sub Menu-11</li>
+                    </ul>
+                </li>
+                
+                <li>Furniture <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-12</li>
+                        <li>Sub Menu-12</li>
+                        <li>Sub Menu-12</li>
+                        <li>Sub Menu-12</li>
+                    </ul>
+                </li>
+                
+                <li>Grocery <i class="fa fa-angle-right"></i>
+                    <ul>
+                        <li>Sub Menu-13</li>
+                        <li>Sub Menu-13</li>
+                        <li>Sub Menu-13</li>
+                        <li>Sub Menu-13</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
     
+
+    <script>
+
+    function openmenu()
+    {
+        document.getElementById("side-menu").style.display="block";
+        document.getElementById("menu-btn").style.display = "none";
+        document.getElementById("close-btn").style.display = "block";
+    }
+     function closemenu() {
+            document.getElementById("side-menu").style.display = "none";
+            document.getElementById("menu-btn").style.display = "block";
+            document.getElementById("close-btn").style.display = "none";
+        }
+    </script>
+
 </body>
 </html>
