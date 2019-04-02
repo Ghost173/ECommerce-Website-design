@@ -4,4 +4,4 @@
 ![Home](/screenshots/1.png)
 ![Home](/screenshots/2.png)
 ![Home](/screenshots/3.png)
-![Home](/screenshots/4s.png)
+![Home](/screenshots/4.png)
