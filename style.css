@@ -183,6 +183,9 @@ font-family: sans-serif;
 .carousel{
     box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
 }
+/* .carousel:hover {
+    transform: scale(1.1);
+} */
 .carousel-inner{
     z-index: 1 !important;
 }
@@ -193,4 +196,18 @@ font-family: sans-serif;
         width: 100%;
         margin-left: 0;
     }
+}
+
+/*feature-categries*/
+.feature-categries{
+    margin: 50px 0;
+}
+.feature-categries img {
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.feature-categries img:hover{
+transform: scale(1.1);
 }
